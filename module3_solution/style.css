@@ -1,0 +1,107 @@
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+header{
+    width: 100%;
+    height: 200px;
+}
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+#mainNavbar {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+#mainNavbar a{ 
+    font-size: 1.5rem;
+}
+ #mainNavbar .navbar-brand {
+      color: #EA1C2C;
+      font-family: 'Style Script', cursive;
+      font-size: 30px;
+      border-radius:50%;
+      min-width:400;
+ }
+ #mainNavbar .nav-link{
+     color:white;
+ }
+
+ #mainNavbar .nav-link:hover{
+    color:#EA1C2C;
+}
+#headingGroup span{
+    color: #EA1C2C;
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding: 0 90px;
+}
+#logoimg{
+    background:url("/imge/large.png");
+    background-size: cover;
+    background-position-x: center;
+    margin: 10px 15px 10px 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    
+}
+
+
+#setting {
+    height:960px;
+}
+.rest{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbutton:hover{
+    background-color: #f77da7;
+}
+@media(max-width:450px) {
+    #buttonsearch {
+        display: inline-block;
+    }
+    .form-inline{
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        justify-content: space-between;
+    }
+    #smallscreen{
+        padding: 0;
+    }
+  
+}
+@media(max-width: 1200px)
+{
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .navbar{
+        width: 100%;
+        height: 70px;
+    }
+}
+
+
