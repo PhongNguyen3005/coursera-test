@@ -24,7 +24,7 @@ p {
     margin: 10px;
     font-size: 1rem;
 }
-.container{
+.big-box{
     display: flex;
     flex-direction: row;
     justify-content: center;
